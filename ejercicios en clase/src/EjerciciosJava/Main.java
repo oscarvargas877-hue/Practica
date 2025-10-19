@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package deberjava;
+package EjerciciosJava;
 import modelo.Gato;
 /**
  *
  * @author Usuario
  */
-public class DeberJava {
+public class Main {
 
     /**
      * @param args the command line arguments
@@ -22,7 +22,6 @@ public class DeberJava {
         miGato.edad = 5;
 
         //Usar metodos
-
         miGato.mostrarInformacion();
         miGato.maullar();
     }

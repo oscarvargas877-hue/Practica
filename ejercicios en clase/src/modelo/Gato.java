@@ -16,7 +16,7 @@ public class Gato {
     public void maullar(){
         System.out.println(nombre + " dice miau miau");
     }
-// metodos 
+// metodo
     public void mostrarInformacion(){
         System.out.println("Gato: "  + nombre + " Edad: " + edad + " años");
     }
