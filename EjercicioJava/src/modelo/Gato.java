@@ -10,17 +10,39 @@ package modelo;
  */
 public class Gato {
      // Atributos
-    public String nombre;
-    public int edad;
+    private String nombre;
+    private int edad;
 
-    // Método
-    public void maullar() {
-        System.out.println(nombre + " dice: ¡miau miau!");
+    // Constructor
+      public Gato(String nombre, int edad){
+        this.nombre=nombre;
+        this.edad=edad;
+    
+    
     }
-
-    // Método para mostrar informacion
-    public void mostrarInformacion() {
-        System.out.println("Gato: " + nombre + ", Edad: " + edad + " años");
+     //set y get
+    // Método de encapsulamiento
+    //set escribe-sobreescribe inicializa
+    public void setNombre(String nombre){
+        this.nombre=nombre;
+    }
+ 
+    //get consultar-leer-obtener
+    public String getNombre(){
+        return nombre;
     }
     
-}
+    public void setEdad(int edad){
+        this.edad=edad;
+    }
+    public int getEdad(){
+        return edad;
+    }
+    //metodo de logica de negocio
+    public void mostrarInformacion(){
+        System.out.println("Gato " + nombre + " dice miau miau"+ " su edad es: "+ edad);
+    }
+            
+    }
+    
+
