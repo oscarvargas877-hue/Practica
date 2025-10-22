@@ -8,6 +8,7 @@ package modelo;
  *
  * @author Usuario
  */
+//Clase
 public class Gato {
      // Atributos
     private String nombre;
@@ -44,5 +45,4 @@ public class Gato {
     }
             
     }
-    
 
