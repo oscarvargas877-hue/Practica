@@ -17,6 +17,11 @@ public class Main {
         gato.mostrarInformacion();
         
         
+        
+        //2. Ejercicio triangulo
+        triangulo tri =new triangulo("Triangulo",3,5);
+        tri.sacarArea();
+        
     }
     
 }
